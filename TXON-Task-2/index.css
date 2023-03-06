@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:rgb(217, 237, 138);
+    height: 98vh;
+    width: 100%;
+}
+
+.Netaji{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2vh 0px 7vh 0px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.Netaji:hover{
+    background-color: white;
+    color: black;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    height: 70vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 35px;
+    align-items: center;
+    text-align: center;
+}
+
+.Output {
+    background-color: white;
+    color: black;
+    width: 300px;
+    font-size: 25px;
+    margin: 0;
+    padding: 30px 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.column {
+    margin: 10px 0px;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid white;
+    background-color:black ;
+    color: white;
+}
+
+.number {
+    background-color:  rgb(37, 37, 28);
+    color:  rgb(255, 255, 0);
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.number:hover{
+    border: 2px solid white;
+    background-color: rgb(211, 211, 80) ;
+    color: black ;
+}
+
+.yellow{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(246, 246, 100);
+    color: black;
+}
+
+.yellow:hover{
+    color: black;
+    background-color: white;
+}
+
+
